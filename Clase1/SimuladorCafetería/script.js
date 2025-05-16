@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const pedidosContainer = document.getElementById("pedidos-container");
   const resultadoFinal = document.getElementById("resultado-final");
 
+
   let eleccion = "";
 
   menu.addEventListener("change", () => {
@@ -31,6 +32,14 @@ document.addEventListener("DOMContentLoaded", () => {
       seleccionTemporal.textContent = "Aún no has elegido";
     }
   });
+
+  const botonEliminarTodos = document.getElementById("eliminar-todos");
+
+botonEliminarTodos.addEventListener("click", () => {
+  const pedidosListos = document.querySelectorAll(".pedido.ready");
+  pedidosListos.forEach(pedido => pedido.remove());
+});
+
 
   botonConfirmar.addEventListener("click", () => {
     if (!eleccion) {
