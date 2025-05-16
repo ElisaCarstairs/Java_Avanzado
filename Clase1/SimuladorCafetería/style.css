@@ -1,0 +1,30 @@
+h1 {
+    font-family: Cormorant Garamond;
+    font-size: 40px;
+    color: #130e41;
+    text-align: center;
+}
+li {
+    font-family: Indie Flower;
+    font-size: 25px;
+    color: #523112;
+    text-align: justify;
+}
+h3{
+    font-family: Comic Neue;
+    font-size: 30px;
+    color: #130e41;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+div {
+    background-color: rgb(220, 241, 236);
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    border: 1px solid #e0d0dc;
+    border-radius: 25px;
+  }
