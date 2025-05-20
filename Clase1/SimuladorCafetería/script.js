@@ -51,13 +51,14 @@ botonEliminarTodos.addEventListener("click", () => {
 
     const pedidoDiv = document.createElement("div");
     pedidoDiv.classList.add("pedido");
-    pedidoDiv.textContent = `🛠️ Pedido: ${eleccion} en fabricación...`;
+    pedidoDiv.textContent = `👨🏻‍🍳 Pedido: ${eleccion} en fabricación...`;
 
     pedidosContainer.appendChild(pedidoDiv);
 
     setTimeout(() => {
-      pedidoDiv.textContent = `✅ Pedido: ${eleccion} listo. ¡Disfrútalo!`;
+      pedidoDiv.textContent = `🍴 Pedido: ${eleccion} listo. ¡Disfrútalo!`;
       pedidoDiv.classList.add("ready");
+      
     }, tiempo);
 
     // Reiniciar selección
