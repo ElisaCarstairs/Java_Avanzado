@@ -38,7 +38,7 @@ callback: es la función que se va a ejecutar cuando llegue la "respuesta".
 
 ¿Qué hace internamente?
 Define una función interna respond que:
-Imprime "Respondiendo a la petición...".
+Imprime "Respondiendo a la petición....".
 Retorna la palabra "data" como respuesta simulada.
 Usa setTimeout para esperar 2 segundos, como si la red tardara en responder.
 Llama a respond() y después ejecuta el callback, pasándole el resultado
