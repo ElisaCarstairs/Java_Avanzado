@@ -1,0 +1,28 @@
+{
+  "Libros": [
+    {
+      "Titulo": "Los juegos del hambre",
+      "Autor": "Suzanne Collins",
+      "Genero": "Ciencia Ficción",
+      "disponible": true
+    },
+    {
+      "Titulo": "El senor de los anillos",
+      "Autor": "JRR Tolkien",
+      "Genero": "Fantasia",
+      "disponible": false
+    },
+    {
+      "Titulo": "Cazadores de sombras",
+      "Autor": "Cassandra Clare",
+      "Genero": "Fantasia",
+      "disponible": true
+    },
+    {
+      "Titulo": "El juego de Ender",
+      "Autor": "Orson Scott Card",
+      "Genero": "Ciencia Ficción",
+      "disponible": true
+    }
+  ]
+}

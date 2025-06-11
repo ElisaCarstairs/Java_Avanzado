@@ -1,8 +1,12 @@
 //1. Función de render
 
-const render = (data) => {
+const render = (usuario) => {
     console.log("-----------");
-    console.log(`|   ${data}    |`);
+    console.log(`|   ${usuario.nombre}    |`);
+    console.log("-----------");
+    console.log(`|   ${usuario.edad}    |`);
+    console.log("-----------");
+    console.log(`|   ${usuario.pais}    |`);
     console.log("-----------");
 }
 
@@ -52,6 +56,12 @@ get("https://google.com", (resp) => {
     render(resp);
 });
 
+
+render ({
+    nombre: "Ana",
+    edad: 29,
+    pais: "España"
+})
 /*
 Llama a get, simulando una petición a Google.
 
