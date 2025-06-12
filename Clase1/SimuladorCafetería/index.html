@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cafeína virtual</title>
+    <link rel="shortcut icon" href="images/Logo3.jpg" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="style.css" />
+    
+    <<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Concert+One&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Indie+Flower&family=Righteous&family=Single+Day&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Bienvenidos a la Cafetería Virtual</h1>
+
+    <div class="contenedor">
+        <!-- Menú -->
+        <div class="menu-lista">
+            <h3>Nuestro menú es:</h3>
+            <ul>
+                <li>Capuchino - 15 seg</li>
+                <li>Latte - 20 seg</li>
+                <li>Té - 10 seg</li>
+                <li>Chocolate - 25 seg</li>
+                <li>Frappe - 30 seg</li>
+                <li>Tequila - 40 seg</li>
+                <li>Agua - 5 seg</li>
+                <li>Sandwich - 10 seg</li>
+                <li>Empanada - 15 seg</li>
+                <li>Donut - 20 seg</li>
+                <li>Churros - 25 seg</li>
+                <li>Chapata - 45 seg</li>
+            </ul>
+        </div>
+
+        <!-- Selector y botones -->
+        <div class="menu-seleccion">
+            <h3>Selecciona una bebida o comida</h3>
+            <select id="menu">
+                <option value="">-- Elige tu bebida o comida --</option>
+                <option value="Capuchino">Capuchino</option>
+                <option value="Latte">Latte</option>
+                <option value="Té">Té</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Frappe">Frappe</option>
+                <option value="Tequila">Tequila</option>
+                <option value="Agua">Agua</option>
+                <option value="Sandwich">Sandwich</option>
+                <option value="Empanada">Empanada</option>
+                <option value="Donut">Donut</option>
+                <option value="Churros">Churros</option>
+                <option value="Chapata">Chapata</option>
+            </select>
+
+            <p id="seleccion-temporal">Aún no has elegido</p>
+            <button id="confirmar">Enviar pedido</button>
+            <p id="resultado-final"></p>
+        </div>
+
+        <!-- Contenedor para los pedidos -->
+        <div id="pedidos-container"></div>
+        
+
+    </div>
+    <h2>
+        <button id="eliminar-todos">Eliminar todos los pedidos listos</button>
+    </h2>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

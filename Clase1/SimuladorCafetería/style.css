@@ -1,0 +1,114 @@
+h1 {
+    font-family: Cormorant Garamond;
+    font-size: 40px;
+    color: #130e41;
+    text-align: center;
+}
+li {
+    font-family: Indie Flower;
+    font-size: 25px;
+    color: #523112;
+    text-align: justify;
+}
+h3{
+    font-family: Comic Neue;
+    font-size: 30px;
+    color: #130e41;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contenedor {
+    display: flex;
+    gap: 40px; /* espacio entre los bloques */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .menu-lista, .menu-seleccion {
+    font-family: Comic Neue;
+    background-color: #d8e6f3;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 50px;
+    margin: 40px;
+  }
+  
+  #menu {
+    margin-bottom: 10px;
+  }
+  
+  .opcion {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  select{
+      font-family: Righteous;
+      font-size: 20px;
+      color: #523112;
+  }
+  button{
+    font-family: Single Day;    
+      font-size: 30px;
+      color: #250210;
+      background-color: rgb(236, 218, 243);
+      border-radius: 5px;
+      border-color: none;
+      cursor: pointer;
+  }
+  button:hover {
+    background-color: #ecea44;
+    color: blue;
+    font-family: Concert One;
+  }
+  
+  #pedidos-container {
+    max-width: 500px;
+    margin-top: 20px;
+  }
+  
+  .pedido {
+    border: 2px solid #8856b6;
+    background-color: #f5e8f2;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    font-family: 'Comic Neue', cursive;
+    position: relative;
+  }
+  
+  .pedido.ready {
+    border-color: #fac192;
+    background-color: #fdf9e3;
+    color: #0d47a1;
+    font-weight: bold;
+  }
+  
+  h2 {
+    display: flex;
+    justify-content: center;
+    
+  }
+  h2 button{
+    background-color: rgb(244, 245, 165);
+    color: rgb(23, 9, 99);
+    border-radius: 5px;
+    border-color: none;
+    cursor: pointer;
+  }
+  h2 button:hover {
+    background-color: rgb(95, 126, 107);
+    color: white;
+    border-color: orange;
+    border-style: dashed;
+    border-radius: 5px;
+    font-family: Single Day;
+  }
