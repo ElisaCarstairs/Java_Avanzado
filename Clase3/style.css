@@ -1,0 +1,80 @@
+h1 {
+    font-family: "Dosis";
+    color: #523112;
+    text-align: center;
+}
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* espacio entre botones */
+    margin-bottom: 20px;
+    
+}
+button {
+    font-family: "Tulpen One";
+    font-size: 44px;
+    background-color: rgb(160, 198, 191);
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(124, 154, 149);
+}
+
+
+h3 {
+    font-family: "PT Sans Narrow";
+    color: #680c45;
+    text-align: center;
+    font-size: 30px;
+}
+div img {
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin-left: 300px;
+}
+
+div img:hover {
+    transform: scale(1.1);
+    border-color: #30042d;
+    border-style: solid;
+}
+h4 {
+    font-family: "Arima";
+    color: #072170;
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    font-family: "Arima";
+    color: #620529;
+    text-align: center;
+    font-size: 20px;
+}
+.limpiar {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* espacio entre botones */
+    margin-bottom: 20px;
+    
+}
+.limpiar button {
+    font-family: "Dosis";
+    font-size: 33px;
+    background-color: rgb(227, 205, 223);
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+}
+
+.limpiar button:hover {
+    background-color: rgb(230, 182, 221);
+}
