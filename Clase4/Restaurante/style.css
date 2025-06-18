@@ -1,0 +1,43 @@
+h1 {
+    font-family: "Dosis";
+    color: #523112;
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button {
+    font-family: "Tulpen One";
+    font-size: 44px;
+    background-color: rgb(179, 160, 198);
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+input{
+    font-family: "Arima";
+    font-size: 24px;
+    background-color: rgb(254, 233, 217);
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: black;
+    border: solid 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+h3 {
+    font-family: "PT Sans Narrow";
+    color: #680c45;
+    text-align: center;
+    font-size: 30px;
+}
+span {
+    font-family: "PT Sans Narrow";
+    color: #064430;
+    text-align: center;
+    font-size: 30px;
+}

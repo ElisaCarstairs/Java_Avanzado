@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante de Hambre</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/LogoComida.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Dosis:wght@200..800&family=PT+Sans+Narrow:wght@400;700&family=Tulpen+One&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <h1>Restaurante de Hambre</h1>
+    <div>
+        <input type="text" id="inputArray" placeholder="Cantidad de Mesas"><br><br>
+    </div>
+    <br>
+    <div>
+        <button onclick="verificar()">Confirmar Disponibilidad</button>        
+    </div>
+    <p></p>
+    <div>
+        <h3>Disponibilidad: </h3>
+    </div>
+    <div>
+        <span id="mesasSolicitadas"></span>
+    </div>
+    <div>
+        <input type="text" id="datoCliente" placeholder="Ingrese nombre"><br><br>
+    </div>
+    <br>
+    <div>
+        <button onclick="verificarNombre()">Enviar Correo de Confirmación</button>        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
