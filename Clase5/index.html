@@ -16,11 +16,9 @@
     <h1>Bienvenidos a la Fiesta Imaginaria</h1>
 
     <div class="informacion">
-        <h2>Fecha: 30 de febrero del 2027</h2>
-        <h3>Hora: 20:00
-            <p></p>
-        Lugar del Evento: Agloe, Nueva York</h3>
-      
+        <h3>Lugar del Evento: Agloe, Nueva York</h3>
+        <h4>Comparte tu información para esta fiesta Imaginaria</h4>
+        
     </div>
      <br>
     <div class="formulario">
@@ -29,17 +27,18 @@
             <label for="name">Nombre:</label>
             <input type="text" id="name" name="name">
             <br>
+            <label for="lastname">Apellido</label>
+            <input type="text" id="lastname" name="lastname">
+            <br>
             <label for="email">Correo:</label>
             <input type="email" id="email" name="email">
             <br>
             <label for="telefono">Teléfono:</label>
             <input type="telefono" id="telefono" name="telefono">
             <br>
-            <br>
-            
-        </form>
-        <h2>¿Qué le gusta hacer?</h2>
-        <form id="interesesForm">
+
+
+            <h2>¿Qué le gusta hacer?</h2>
             <label>
             <input type="checkbox" name="intereses" value="deportes"> Deportes
             </label><br>
@@ -52,9 +51,31 @@
             <label>
             <input type="checkbox" name="intereses" value="tecnología"> Tecnología
             </label><br><br>
-    
-    <button type="submit">Enviar</button>
-  </form>
+
+            <h2>¿Cuál es tu horario preferido?</h2>
+            <label>
+            <input type="radio" name="horario" value="Mañana (8:00 - 12:00)"> Mañana (8:00 - 12:00)
+            </label>
+            <br>
+            <label>
+            <input type="radio" name="horario" value="Tarde (12:00 - 17:00)"> Tarde (12:00 - 17:00)
+            </label>
+            <br>
+            <label>
+            <input type="radio" name="horario" value="Noche (17:00 - 21:00)"> Noche (17:00 - 21:00)
+            </label>
+            <br>
+            <label for="fecha">Selecciona la fecha del evento:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <br>
+            <label for="archivo">Sube tu identificación:</label>
+            <input type="file" id="archivo" name="archivo" accept=".jpg,.png,.pdf">
+            <br><br>
+
+            <button type="submit">Registrarse</button>
+            <div id="salida" class="mensaje-salida"></div>
+        </form>
+        
     </div>
 
 
