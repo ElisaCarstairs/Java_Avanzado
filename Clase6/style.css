@@ -1,0 +1,72 @@
+h1 {
+    font-family: "Quintessential";
+    font-size: 40px;
+    color: rgb(104, 49, 19);
+    text-align: center;
+}
+h2 {
+    font-family: "Poiret One";
+    font-size: 40px;
+    color: rgb(21, 26, 113);
+    text-align: center;
+}
+h3 {
+    font-family: "Schoolbell";
+    font-size: 20px;
+    color: rgb(39, 125, 47);
+    text-align: center;
+}
+h4 {
+    font-family: "Poiret One";
+    font-size: 20px;
+    color: rgb(11, 42, 122);
+    text-align: center;
+}
+
+header {
+    background-color: rgb(220, 208, 219);
+    padding: 5px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+
+}
+div {
+    font-family: "Quintessential";
+    font-size: 20px;
+    color: rgb(21, 91, 43);
+    text-align: center;
+}
+.formulario {
+    background-color: rgb(220, 232, 242);
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 75%;
+    margin: auto;
+    border: none;
+    transition: background-color 0.3s ease;
+    font-family: "Sour Gummy";
+    
+}
+.formulario input[type="email"],
+.formulario input[type="text"],
+.formulario input[type="telefono"] {
+    width: 70%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.formulario input[type="password"] {
+    width: 20%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input {
+    font-family: "Indie Flower";
+}

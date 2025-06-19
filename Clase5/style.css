@@ -52,12 +52,12 @@ div {
 .formulario input[type="text"],
 .formulario input[type="email"],
 .formulario input[type="telefono"] {
-  width: 70%;
-  padding: 8px 10px;
-  margin-bottom: 15px;
-  border: 1px solid #aaa;
-  border-radius: 5px;
-  box-sizing: border-box;
+    width: 70%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 .formulario button {
   width: 50%;
