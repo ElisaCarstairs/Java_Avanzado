@@ -4,7 +4,7 @@ const { z } = window.Zod;
 const infoSchema = z.object({
   name: z.string().min(3, 'El nombre debe tener al menos 3 caracteres.'),
 
-  password: z.string().min(8, 'La contraseña debe tener al menos 8 caracteres.'),
+  password: z.string().min(10, 'La contraseña debe tener al menos 10 caracteres.'),
 
   telefono: z.string()
     .regex(/^\d{10}$/, 'El teléfono debe tener exactamente 10 dígitos numéricos.'),
@@ -34,9 +34,10 @@ const errorMessage = document.getElementById('errors');
         // PISTA: Usa el método correcto de Zod para validar el esquema.
         infoSchema.parse(formData);
         alert("¡Registro exitoso!");
+        form.reset();
       } catch (error) {
         // PISTA: Muestra los mensajes de error en la página.
         document.getElementById("errors").textContent = error.errors.map(e => e.message).join(", ");
       }
-      form.reset();
+      
     });
