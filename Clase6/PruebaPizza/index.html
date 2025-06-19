@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Imaginaria</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/pngtree-pizza-log.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Margarine&family=Poiret+One&family=Quintessential&family=Schoolbell&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>
+        Bienvenidos a la Pizzeria Imaginaria
+        </h1>
+        <h3>"Donde cada porción es una fiesta, y el horno siempre está listo para celebrar."</h3>
+        <h4>Ingrese los datos para su pedido</h4>
+    </header>
+    <br>
+    <div class="infoPizza">
+        <form id="pizzaForm">
+        <input type="text" id="name" placeholder="Nombre" required />
+        <br>
+        <label for="size">Tamaño:</label>
+        <select id="size" required>
+            <option value="">Selecciona un tamaño</option>
+            <option value="pequeña">Pequeña</option>
+            <option value="mediana">Mediana</option>
+            <option value="grande">Grande</option>
+        </select>
+        <br><br>
+        <fieldset>
+            <legend>Ingredientes Extras:</legend>
+            <label><input type="checkbox" name="ingredients" value="pepperoni"> Pepperoni</label>
+            <label><input type="checkbox" name="ingredients" value="champiñones"> Champiñones</label>
+            <label><input type="checkbox" name="ingredients" value="aceitunas"> Aceitunas</label>
+            <label><input type="checkbox" name="ingredients" value="extraQueso"> Extra Queso</label>
+        </fieldset><br><br>
+        <input type="number" id="quantity" placeholder="Cantidad" min="1" max="10" required />
+        <button type="submit">Realizar Pedido</button>
+    </form>
+    <p id="errorMessage" class="error"></p>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/zod@3.21.4/lib/index.umd.min.js"></script>
+    <script src="script.js"></script>
+
+    </div>
+
+</body>
+</html>
